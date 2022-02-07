@@ -7,4 +7,4 @@ for new in newUsers:
     if new.lower() in currentLower:
         print(f'Sorry {new}, that name is taken')
     else:
-        print(f'Great, {new} is still available')
+        print(f'Great, {new} is still available') 
