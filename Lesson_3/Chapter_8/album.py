@@ -12,7 +12,7 @@ def make_album(artist, title, tracks = 0):
 
 title_prompt = "\nWhat's the album? "
 artist_prompt = "Who's the artist? "
-print("Enter 'quit' at any time to stop.")
+print("Enter 'quit' at any time to stop.") 
 
 while True:
     title = input(title_prompt)

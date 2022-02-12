@@ -12,7 +12,7 @@ finished = []
 print("I'm sorry, we're all out of Pastrami today.")
 while 'Pastrami' in orders:
     orders.remove('Pastrami')
-
+ 
 while orders:
     current_sandwich = orders.pop()
     print("I made your " + current_sandwich + " sandwich.")

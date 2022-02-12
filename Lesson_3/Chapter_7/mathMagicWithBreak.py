@@ -18,4 +18,4 @@ while counter <= 10: #I wasn't sure if you wanted to loop the
         print('You might want to get some help from a tutor')
     break
 print(f'You answered {numCorrect} questions correctly')
-print('Thanks for playing')
+print('Thanks for playing') 

@@ -15,7 +15,7 @@ def send_messages(messages, sent_messages):
 
 messages = ["hello", "good morning", "how are you doing?"]
 show_messages(messages)
-
+ 
 sent_messages = []
 send_messages(messages[:], sent_messages)
 

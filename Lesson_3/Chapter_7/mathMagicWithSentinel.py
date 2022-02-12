@@ -3,7 +3,7 @@
 #mathMagicWithSentinel.py
 import random
 keepPlaying = True
-numCorrect = 0
+numCorrect = 0 
 while keepPlaying:
     randNum1 = random.randrange(1,1000)
     randNum2 = random.randrange(1,1000)
