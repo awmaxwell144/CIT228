@@ -1,5 +1,3 @@
-
-
 Writing to glossary:
 Integer: Whole number
 Float: Decimal number
