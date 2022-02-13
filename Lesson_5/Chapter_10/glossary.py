@@ -27,12 +27,7 @@ for i in glossary:
     print(f'\t{glossary[i]}')
 
 print('------------For Chapter 10------------')
-import pyinputplus as pyip
-"""
-6.  In the main program, use a while loop to continue processing until the user selects quit from the menu
-7.  Make sure your program handles keys that are more than one word  ( For example, if the user enters
- assert method for the term, you will need to format that before you can use it as a key. You could format 
- it as assert_method,  assertMethod or assert-method.)"""
+import os
 def write_glossary(glossary):
     filename = 'Lesson_5\Chapter_10\glossary.txt'
     with open(filename, 'w') as f: 
@@ -40,18 +35,18 @@ def write_glossary(glossary):
         for item in glossary: 
             f.write(f'\n{item}: {glossary[item]}')
 
-def append_glossary():
+def append_glossary(glossary):
     filename = 'Lesson_5\Chapter_10\glossary.txt'
     with open(filename, 'a') as f: 
-        while True:
-            term = input('Please input a term: ')
-            definition = input('Please input the definition: ')
-            print(f'\n{term}: {definition}')
+        term = input('Please input a term: ')
+        definition = input('Please input the definition: ')
+        glossary[term] = definition
+        f.write(f'\n{term}: {definition}')
 
 def menu():
     while True:
         print('Menu:\n1: Create the glossary json file\n2: Read from the glossary and print the glossary\n3: Add to the glossary json file\n4: Quit')
-        choice = int(pyip.inputInt('Please enter a number 1-4: '))
+        choice = int(input('Please enter a number 1-4: '))
         if choice == 1:
             write_glossary(glossary)
         elif choice == 2:
@@ -60,12 +55,12 @@ def menu():
                 for line in lines:
                     print(line)
         elif choice == 3:
-            append_glossary()
+            append_glossary(glossary)
         elif choice == 4:
             print('Quitting')
             break
         else:
             print('Please enter a valid numerical input between 1 and 4')
-
-
+if os.path.exists('Lesson_5\Chapter_10\glossary.txt'):
+    os.remove('Lesson_5\Chapter_10\glossary.txt')
 menu()

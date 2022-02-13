@@ -48,4 +48,4 @@ with open(fileName, "w") as guestsFile:
 with open(fileName) as guestsFile:
     print('------------Guest and Room Assigned------------')
     for line in guestsFile:
-        print(line)
+        print(line) 

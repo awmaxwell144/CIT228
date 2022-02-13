@@ -19,3 +19,30 @@ except ValueError:
 else:
     sum = x + y
     print( str(x) + " + " + str(y) + " = " + str(sum))
+
+print('--------------------Exercise 10-7--------------------')
+"""Wrap your code from Exercise 10-6 in a while loop
+so the user can continue entering numbers even if they make a mistake and
+enter text instead of a number"""
+print("Enter 'q' at any time to quit.\n")
+
+while True:
+    try:
+        x = input("\nPlease enter the first number: ")
+        if x == 'q':
+            break
+
+        x = int(x)
+
+        y = input("Please enter the second number: ")
+        if y == 'q':
+            break
+
+        y = int(y)
+
+    except ValueError:
+        print("You must enter numbers instead of text, please try again.")
+
+    else:
+        sum = x + y
+        print("The sum of " + str(x) + " and " + str(y) + " is " + str(sum) + ".")
