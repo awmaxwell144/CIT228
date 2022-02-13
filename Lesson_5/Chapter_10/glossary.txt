@@ -1,0 +1,61 @@
+
+
+Writing to glossary:
+Integer: Whole number
+Float: Decimal number
+String: Text
+Boolean: True/False
+List: A container that can store any kind of values
+Tuple: A similar container as a list that cannot be updated
+Index: A number indicating the location of a specific value within a list of tuple
+Comment: Text within the script that will not be compiled as code
+For loop: A loop that iterates through the contents a set number of times
+If statement: Executes the contents if the statement evaluates to true
+
+Appending glossary:
+Integer: Whole number
+Float: Decimal number
+String: Text
+Boolean: True/False
+List: A container that can store any kind of values
+Tuple: A similar container as a list that cannot be updated
+Index: A number indicating the location of a specific value within a list of tuple
+Comment: Text within the script that will not be compiled as code
+For loop: A loop that iterates through the contents a set number of times
+If statement: Executes the contents if the statement evaluates to true
+
+Appending glossary:
+Integer: Whole number
+Float: Decimal number
+String: Text
+Boolean: True/False
+List: A container that can store any kind of values
+Tuple: A similar container as a list that cannot be updated
+Index: A number indicating the location of a specific value within a list of tuple
+Comment: Text within the script that will not be compiled as code
+For loop: A loop that iterates through the contents a set number of times
+If statement: Executes the contents if the statement evaluates to true
+
+Appending glossary:
+Integer: Whole number
+Float: Decimal number
+String: Text
+Boolean: True/False
+List: A container that can store any kind of values
+Tuple: A similar container as a list that cannot be updated
+Index: A number indicating the location of a specific value within a list of tuple
+Comment: Text within the script that will not be compiled as code
+For loop: A loop that iterates through the contents a set number of times
+If statement: Executes the contents if the statement evaluates to true
+
+Appending glossary:
+Integer: Whole number
+Float: Decimal number
+String: Text
+Boolean: True/False
+List: A container that can store any kind of values
+Tuple: A similar container as a list that cannot be updated
+Index: A number indicating the location of a specific value within a list of tuple
+Comment: Text within the script that will not be compiled as code
+For loop: A loop that iterates through the contents a set number of times
+If statement: Executes the contents if the statement evaluates to true
